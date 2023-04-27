@@ -1,0 +1,92 @@
+{
+    "editor.formatOnType": true,
+    "explorer.openEditors.visible": 0,
+    "workbench.activityBar.visible": false,
+    "editor.minimap.enabled": false,
+    "editor.minimap.renderCharacters": false,
+    "editor.fontLigatures": true,
+    "editor.fontWeight": "bold",
+    "editor.fontSize": 12,
+    "editor.lineHeight": 23,
+    "editor.lineNumbers": "on",
+    "workbench.editor.showTabs": false,
+    "workbench.tree.renderIndentGuides": "none",
+    "editor.detectIndentation": false,
+    //Git lens plugin
+    "gitlens.blame.heatmap.enabled": false,
+    "gitlens.blame.highlight.enabled": false,
+    "gitlens.codeLens.enabled": false,
+    "gitlens.statusBar.enabled": false,
+    "gitlens.mode.statusBar.enabled": false,
+    "gitlens.settings.mode": "advanced",
+    "workbench.iconTheme": "ayu",
+    "workbench.startupEditor": "newUntitledFile",
+    //Emmet
+    "emmet.triggerExpansionOnTab": true,
+    "emmet.includeLanguages": {
+        "postcss": "css",
+        "javascript": "javascriptreact",
+        "vue-html": "html",
+        "plaintext": "jade",
+        "blade": "html"
+    },
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "simple-php-cs-fixer.useConfig": true,
+    "simple-php-cs-fixer.config": ".php-cs-fixer.php",
+    "simple-php-cs-fixer.save": true,
+    "editor.formatOnSave": true,
+    "editor.renderWhitespace": "selection",
+    "php-docblocker.qualifyClassNames": true,
+    "php-docblocker.returnGap": true,
+    "php-docblocker.useShortNames": true,
+    "vim.vimrc.enable": false,
+    "workbench.colorTheme": "Palenight Operator",
+    "gitProjectManager.openInNewWindow": true,
+    "prettier.useTabs": false,
+    "twig-language.endComma": "none",
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "editor.wordWrapColumn": 100,
+    "files.associations": {
+        ".blade.php": "html",
+        ".tpl": "html",
+        "*.css": "tailwindcss"
+    },
+    "editor.quickSuggestions": {
+        "strings": true
+    },
+    "tailwindCSS.includeLanguages": {
+        "javascript": "javascript",
+        "html": "HTML"
+    },
+    "prettier.printWidth": 100,
+    "prettier.singleQuote": true,
+    "prettier.tabWidth": 4,
+    "editor.cursorStyle": "line",
+    "editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
+    "editor.wordWrap": "off",
+    "[php]": {},
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "editor.guides.indentation": false,
+    "editor.bracketPairColorization.enabled": false,
+    "[blade]": {
+        "editor.defaultFormatter": "shufo.vscode-blade-formatter"
+    },
+    "[yaml]": {
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2,
+        "editor.autoIndent": "advanced",
+        "editor.defaultFormatter": "redhat.vscode-yaml",
+    },
+
+    "bladeFormatter.format.wrapAttributes": "preserve",
+    "editor.inlineSuggest.enabled": true,
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "tailwindCSS.emmetCompletions": true
+}
