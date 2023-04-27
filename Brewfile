@@ -30,6 +30,7 @@ cask 'figma'
 cask 'microsoft-teams'
 cask '1password'
 cask 'spectacle'
+cask 'whatsapp'
 
 # Dev apps
 cask 'tableplus'

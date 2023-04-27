@@ -18,6 +18,8 @@ source symlink.sh
   if test ! "$( command -v brew )"; then
       echo "Installing homebrew"
       /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+      (echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> /Users/sanderpeeters/.zprofile
+      eval "$(/opt/homebrew/bin/brew shellenv)"
   fi
 
 # Update Homebrew recipes
