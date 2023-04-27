@@ -17,7 +17,7 @@ source symlink.sh
 # Check for Homebrew and install if we don't have it
   if test ! "$( command -v brew )"; then
       echo "Installing homebrew"
-      /bin/bash "$( curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh )"
+      /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
   fi
 
 # Update Homebrew recipes
