@@ -29,6 +29,7 @@ cask 'linear-linear'
 cask 'figma'
 cask 'microsoft-teams'
 cask '1password'
+cask 'spectacle'
 
 # Dev apps
 cask 'tableplus'
